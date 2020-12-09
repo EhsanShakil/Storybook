@@ -9,7 +9,9 @@ export default {
 export const CounterDefault = () => {
   return <Counter />;
 };
-
 export const CounterValue = () => {
   return <Counter initialValue={34} />;
+};
+export const CounterBackground = () => {
+  return <Counter initialValue={50} background="yellow" />;
 };
