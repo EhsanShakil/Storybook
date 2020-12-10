@@ -1,5 +1,5 @@
-import Counter from "../components/Counter";
 import React from "react";
+import Counter from "../components/Counter";
 
 export default {
   title: "Counter",
@@ -7,7 +7,7 @@ export default {
 };
 
 export const CounterDefault = () => {
-  return <Counter />;
+  return <Counter initialValue={0} />;
 };
 export const CounterValue = () => {
   return <Counter initialValue={34} />;
